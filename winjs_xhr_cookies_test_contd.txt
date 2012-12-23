@@ -1,0 +1,26 @@
+GET http://127.0.0.1:3000/ HTTP/1.1
+Accept: */*
+Accept-Language: en-US,en;q=0.7,he;q=0.3
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate, peerdist
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; MSAppHost/1.0)
+Host: 127.0.0.1:3000
+Connection: Keep-Alive
+Cookie: a=b; c=d
+X-P2P-PeerDist: Version=1.1
+X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=1.0
+
+
+HTTP/1.1 302 Moved Temporarily
+Content-Type: text/plain
+Set-Cookie: a=b
+Location: http://127.0.0.1:3000/dimastopel
+Date: Sun, 23 Dec 2012 11:58:37 GMT
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+c
+Redirecting
+
+0
+

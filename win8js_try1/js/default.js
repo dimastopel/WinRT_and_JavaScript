@@ -54,3 +54,14 @@ function calc_fib(form) {
     //$('#answer_label').text(answer_label_text);
 };
 
+function send_request() {
+    WinJS.xhr(
+            {
+                url: "http://127.0.0.1:3000"
+            }
+        ).done(function (res) {
+            var headers = res.getResponseHeader("Set-Cookie");
+            console.log('request completed');
+    });
+}
+
